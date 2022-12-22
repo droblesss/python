@@ -2,7 +2,7 @@
 
 import random
 
-def juego_del_ahorcado():
+def juego_del_ahorcado("Elige una palabra para adivinar\n (mejor que no la vean los participantes")):
   palabra_elegida = input()
   letras_adivinadas = []
   intentos_restantes = 6
